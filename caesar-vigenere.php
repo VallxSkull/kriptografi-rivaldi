@@ -234,7 +234,7 @@ function caesar_alphabet_table($shift) {
     <li><a href="xor-cipher.php">⊕ XOR Cipher</a></li>
     <li><a href="caesar-vigenere.php" class="active">🔄 Caesar & Vigenere</a></li>
     <li><a href="verifikator-dokumen.php">📋 Verifikator</a></li>
-    <li><a href="ssl-generator.php">🔒 SSL Generator</a></li>
+    <li><a href="ssl-generator.php">🛡️ SSL Generator</a></li>
     <li><a href="about.php">ℹ️ About</a></li>
   </ul>
   <button class="hamburger" onclick="toggleNav()">

@@ -196,7 +196,7 @@ if ($step === 'verify') {
     <li><a href="xor-cipher.php">⊕ XOR Cipher</a></li>
     <li><a href="caesar-vigenere.php">🔄 Caesar & Vigenere</a></li>
     <li><a href="verifikator-dokumen.php" class="active">📋 Verifikator</a></li>
-    <li><a href="ssl-generator.php">🔒 SSL Generator</a></li>
+    <li><a href="ssl-generator.php">🛡️ SSL Generator</a></li>
     <li><a href="about.php">ℹ️ About</a></li>
   </ul>
   <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
