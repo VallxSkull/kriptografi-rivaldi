@@ -163,10 +163,14 @@ $current_page = 'home';
         <span class="stat-item-num">SHA</span>
         <div class="stat-item-label">Digital Signature</div>
       </div>
+      <div class="stat-item">
+        <span class="stat-item-num">CSR</span>
+        <div class="stat-item-label">Certificate Signing Request</div>
+      </div>
     </div>
 
     <div class="alert alert-info" style="max-width: 600px;">
-      💡 <strong>Tips:</strong> Mulai dari Kalkulator FPB untuk memahami dasar matematika, lalu lanjutkan ke algoritma RSA yang menggunakan konsep tersebut.
+      <strong>FunFact:</strong> Web ini di develop oleh Rivaldi(VibeCoder) menggunakan AI dan PHP.
     </div>
   </div>
 </div>
