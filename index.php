@@ -25,6 +25,7 @@ $current_page = 'home';
     <li><a href="xor-cipher.php">⊕ XOR Cipher</a></li>
     <li><a href="caesar-vigenere.php">🔄 Caesar & Vigenere</a></li>
     <li><a href="verifikator-dokumen.php">📋 Verifikator</a></li>
+    <li><a href="ssl-generator.php">🛡️ SSL Generator</a></li>
     <li><a href="about.php">ℹ️ About</a></li>
   </ul>
   <button class="hamburger" onclick="toggleNav()" id="hamburger" aria-label="Menu">
@@ -114,6 +115,16 @@ $current_page = 'home';
       <div class="card-arrow">Verifikasi →</div>
     </a>
 
+    <!-- SSL Generator -->
+    <a href="ssl-generator.php" class="card card-menu">
+      <div class="card-icon">🔒</div>
+      <div>
+        <div class="card-title">SSL Certificate Generator</div>
+        <div class="card-desc">Generate self-signed SSL certificates (CSR, Private Key, Public Key) untuk development dan testing purposes.</div>
+      </div>
+      <div class="card-arrow">Generate SSL →</div>
+    </a>
+
     <!-- About -->
     <a href="about.php" class="card card-menu">
       <div class="card-icon">📚</div>
@@ -163,7 +174,7 @@ $current_page = 'home';
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer-logo">🔐</div>
-  <p><strong>KriptoVall</strong> Tugas-tugas dari Mata Kuliah Kriptografi</p>
+  <p><strong><a href="index.php">KriptoVall</a></strong> Tugas-tugas dari Mata Kuliah Kriptografi</p>
   <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.6;">Built with PHP Native · HTML5 · CSS3 · JavaScript</p>
 </footer>
 

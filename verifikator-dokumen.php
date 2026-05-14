@@ -196,6 +196,7 @@ if ($step === 'verify') {
     <li><a href="xor-cipher.php">⊕ XOR Cipher</a></li>
     <li><a href="caesar-vigenere.php">🔄 Caesar & Vigenere</a></li>
     <li><a href="verifikator-dokumen.php" class="active">📋 Verifikator</a></li>
+    <li><a href="ssl-generator.php">🔒 SSL Generator</a></li>
     <li><a href="about.php">ℹ️ About</a></li>
   </ul>
   <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
@@ -602,7 +603,8 @@ elseif ($step === 'verify'):
 </div>
 
 <footer class="footer">
-  <p><strong>KriptoVall</strong> Tugas-tugas dari Mata Kuliah Kriptografi</p>
+  <div class="footer-logo">🔐</div>
+  <p><strong><a href="index.php">KriptoVall</a></strong> Tugas-tugas dari Mata Kuliah Kriptografi</p>
   <p style="margin-top: 8px; font-size: 0.8rem; opacity: 0.6;">Built with PHP Native · HTML5 · CSS3 · JavaScript</p>
 </footer>
 <script>
