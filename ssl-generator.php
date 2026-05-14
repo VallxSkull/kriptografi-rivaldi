@@ -609,7 +609,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <nav class="navbar">
   <a class="navbar-brand" href="index.php">
     <div class="brand-icon">🔐</div>
-    KriptoMath
+    KriptoVall
   </a>
   <ul class="navbar-nav" id="navMenu">
     <li><a href="index.php">🏠 Home</a></li>
