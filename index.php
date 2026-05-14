@@ -117,7 +117,7 @@ $current_page = 'home';
 
     <!-- SSL Generator -->
     <a href="ssl-generator.php" class="card card-menu">
-      <div class="card-icon">🔒</div>
+      <div class="card-icon">🛡️</div>
       <div>
         <div class="card-title">SSL Certificate Generator</div>
         <div class="card-desc">Generate self-signed SSL certificates (CSR, Private Key, Public Key) untuk development dan testing purposes.</div>
