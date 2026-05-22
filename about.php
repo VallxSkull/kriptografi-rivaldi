@@ -26,6 +26,7 @@ $current_page = 'about';
     <li><a href="caesar-vigenere.php">🔄 Caesar & Vigenere</a></li>
     <li><a href="verifikator-dokumen.php">📋 Verifikator</a></li>
     <li><a href="ssl-generator.php">🛡️ SSL Generator</a></li>
+    <li><a href="sha256-generator.php">#️⃣ SHA-256</a></li>
     <li><a href="about.php" class="active">ℹ️ About</a></li>
   </ul>
   <button class="hamburger" onclick="toggleNav()">
@@ -211,6 +212,44 @@ $current_page = 'about';
         Digital Signature dapat mendeteksi serangan ini karena perubahan sekecil apapun pada dokumen akan menghasilkan hash yang berbeda,
         sehingga verifikasi tanda tangan akan <strong style="color: #dc3545;">GAGAL</strong>.
       </p>
+    </div>
+
+        <!-- SHA-256 -->
+    <div class="about-card">
+      <div class="about-card-header">
+        <div class="about-card-icon">#️⃣</div>
+        <h3>SHA-256 Hash</h3>
+      </div>
+      <p>
+        <strong>SHA-256</strong> (Secure Hash Algorithm 256-bit) adalah fungsi hash kriptografi dari keluarga SHA-2.
+        Menghasilkan <em>digest</em> 256-bit yang unik dan deterministic dari input apapun.
+      </p>
+      <hr class="divider" style="margin: 16px 0;">
+      <ul style="padding-left: 20px; font-size: 0.875rem; color: var(--text-light); line-height: 2;">
+        <li>Output selalu 256 bit (64 hex char)</li>
+        <li>One-way — tidak bisa di-reverse</li>
+        <li>Avalanche: 1 bit berubah → ~50% hash berubah</li>
+        <li>Digunakan di SSL/TLS, Bitcoin, verifikasi file</li>
+      </ul>
+    </div>
+
+    <!-- SSL/X.509 -->
+    <div class="about-card">
+      <div class="about-card-header">
+        <div class="about-card-icon">🛡️</div>
+        <h3>SSL & Sertifikat X.509</h3>
+      </div>
+      <p>
+        <strong>SSL/TLS Certificate</strong> adalah dokumen digital yang membuktikan identitas server/domain.
+        Format <em>X.509</em> menyimpan Public Key dan data identitas (DN) yang ditandatangani oleh CA.
+      </p>
+      <hr class="divider" style="margin: 16px 0;">
+      <ul style="padding-left: 20px; font-size: 0.875rem; color: var(--text-light); line-height: 2;">
+        <li>CSR — Certificate Signing Request</li>
+        <li>CRT — Certificate (format PEM/DER)</li>
+        <li>Self-signed — ditandatangani sendiri (testing)</li>
+        <li>CA-signed — ditandatangani Certificate Authority</li>
+      </ul>
     </div>
 
     <!-- PLATFORM INFO -->
