@@ -125,6 +125,15 @@ $current_page = 'home';
       </div>
       <div class="card-arrow">Generate SSL →</div>
     </a>
+      <!-- SHA-256 -->
+    <a href="sha256-generator.php" class="card card-menu">
+      <div class="card-icon">#️⃣</div>
+      <div>
+        <div class="card-title">SHA-256 Generator</div>
+        <div class="card-desc">Hash teks & file, HMAC-SHA256, perbandingan hash, verifikasi integritas, dan visualisasi avalanche effect.</div>
+      </div>
+      <div class="card-arrow">Hash Sekarang →</div>
+    </a>
 
     <!-- About -->
     <a href="about.php" class="card card-menu">
